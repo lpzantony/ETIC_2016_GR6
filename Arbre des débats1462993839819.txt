@@ -1,0 +1,5 @@
++Les   données   ouvertes   et   les   administrations publiques  :  vers  la  transparence  stratégiquement opaque ?::Depuis l'engouement récent envers le mouvement "open", le domaine des Open Data a connu plusieurs mutations.
+Une controverse se dessine concernant les données ouvertes et les gouvernements, à quel point ces derniers sont transparents, de quelle manière et dans quel but?
+++Edit this first node name
+++Edit this second node name
+++Edit this third node name

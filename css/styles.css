@@ -1,0 +1,62 @@
+/*Custom Style*/
+/*
+$color1: #114b5f; //rgba(17, 75, 95, 100) darker
+$color2: #1a936f; //rgba(26, 147, 111, 100)
+$color3: #88d498; //rgba(136, 212, 152, 100)
+$color4: #c6dabf; //rgba(198, 218, 191, 100)
+$color5: #f3e9d2; //rgba(243, 233, 210, 100) whiter
+*/
+
+/*$color1: #b2abf2; //rgba(178, 171, 242, 100) // rose
+$color2: #89043d; //rgba(137, 4, 61, 100) // rouge
+$color3: #2fe6de; //rgba(47, 230, 222, 100) // bleu clair
+$color4: #1c3041; //rgba(28, 48, 65, 100) //bleu  foncé
+$color5: #18f2b2; //rgba(24, 242, 178, 100) // turquoise
+*/
+html{
+	/*background-color:#333333;*/
+	background-color:#1c3041;
+}
+.main-content  { 
+	padding-top: 70px; 
+	background-color:#1c3041;
+}
+.container-fluid{
+	background-color:#18f2b2;
+}
+
+.navbar-default .navbar-brand{
+	color:#F23216;
+	font-weight: normal;
+}
+.navbar-default:hover .navbar-brand:hover{
+	color:#BF2712;
+	//font-weight: bold;
+}
+.vignettes{
+	margin-left : 10px;
+	margin-right: 10px;
+}
+
+.BigTitleWhite{
+	text-align: center;
+	color:white;
+}
+.thumbnail{
+	background-color:#F2F2F2;
+}
+.SpicyNodes{
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+	margin-bottom: 80px;
+}
+.navbar .navbar-default .navbar-fixed-top{
+	
+}*.caption{
+	text-align:justify;
+}
+.carousel{
+	margin-bottom: 70px;
+	
+}
