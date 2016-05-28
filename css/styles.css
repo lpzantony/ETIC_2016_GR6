@@ -17,17 +17,27 @@ html{
 	/*background-color:#333333;*/
 	background-color:#1c3041;
 }
+.main{
+	background-color:#1c3041;
+}
+.bubles{
+	/*background-image: url(../images/cityopen.png);*/
+}
 .main-content  { 
-	padding-top: 70px; 
+	/*padding-top: 70px; */
 	background-color:#1c3041;
 }
 .container-fluid{
 	background-color:#18f2b2;
 }
+.navbar{
+	margin-bottom: 0;
+}
 
 .navbar-default .navbar-brand{
 	color:#F23216;
 	font-weight: normal;
+
 }
 .navbar-default:hover .navbar-brand:hover{
 	color:#BF2712;
