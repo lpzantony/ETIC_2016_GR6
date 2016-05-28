@@ -5,6 +5,8 @@
 	display: block;
 	text-align: center;
 	width: 100%;
+
+	z-index: 10;
 }
 
 .ch-grid:after,
@@ -21,5 +23,5 @@
 	width: 280px;
 	height: 280px;
 	display: inline-block;
-	margin: 20px;
+	margin:  20px;
 }
