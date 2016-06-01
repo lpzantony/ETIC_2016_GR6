@@ -28,18 +28,34 @@ html{
 }
 .main{
 	background-color:#1c3041;
-	margin-top: 100px;
+	/*margin-top: 70px;*/
 }
-.titre{
-	text-align: center;
+
+.titre h1{
+	transform: translateX(-20%);
+	color : #e9e9e9;
+	font-weight: bold;
+	font-size: 54px;
+	text-shadow: 0 0 15px rgba(0,0,0, 1);
+	margin-bottom: 40px;
+	
 }
-.titre > h1{
-	/*color: #F23216;*/
+.titre p{
+	
+	transform: translateX(-20%);
+	color :#e9e9e9;
+	font-size: 24px;
+	text-shadow: 0 0 15px rgba(0,0,0, 0.7);
+	margin-bottom: 0;
 }
+
 .bubles{
 	/*background-image: url(../images/cityopen.png);*/
 	/*height: 840px;*/
-	margin: 50px;
+	margin-top: 10px;
+}
+#acteurs_img {
+	padding : 50px;
 }
 .boutons{
 	/*margin-top: -300px;*/
@@ -50,8 +66,10 @@ html{
 
 }
 .texte-ipsum{
-	background-color:#18F2B2; 
+	/*background-color:#18F2B2; */
+	background-color:#e9e9e9;
 	text-align: justify;
+	font-size: 22px;
     text-justify: inter-word;
 	/*background-color:#88d498;*/
 	padding: 50px;
@@ -121,7 +139,7 @@ background-color: transparent;
 	text-align:justify;
 }
 .carousel{
-	margin-bottom: 70px;
+	margin-bottom: 10px;
 	
 }
 .footer{
