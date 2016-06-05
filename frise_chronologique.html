@@ -45,8 +45,18 @@
 	
 			<nav class="navbar navbar-default navbar-fixed-top">
 				<div class="container-fluid">
+				 	<div class="navbar-header">
+				 	<!-- Bouton qui apparait au zoom -->
+				      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				       		<span class="sr-only">Toggle navigation</span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+				      	</button>
+
+				    </div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
 						<!-- BOUTONS - GAUCHE -->
 					  	<ul class="nav navbar-nav">
 					  		<!-- MAISON -->
@@ -93,19 +103,22 @@
 							</li>	
 						</ul>	
 						<!-- BARRE RECHERCHE - DROITE -->
-						<form class="navbar-form navbar-right" role="search">
-					  		<div class="form-group">
-					    		<input type="text" class="form-control" placeholder="Oui... ?">
-					  		</div>
-					  		<button type="submit" class="btn btn-default">Rechercher</button>
-						</form>
+						<ul class="nav navbar-nav navbar-right">
+							<form class="navbar-form navbar-right" role="search">
+						  		<div class="form-group">
+						    		<input type="text" class="form-control" placeholder="Oui... ?">
+						  		</div>
+						  		<button type="submit" class="btn btn-default">Rechercher</button>
+							</form>
+						</ul>
 
 					  		  
 					</div><!-- /.navbar-collapse -->
 
 				</div><!-- /.container-fluid -->
 
-			</nav> <!-- FIN MENU BAR -->
+			</nav> 
+			<!-- FIN MENU BAR -->
 			
 
 			
@@ -113,15 +126,16 @@
 				<div class="carousel slide titre" data-ride="carousel">
 				    <div class="carousel-inner">
 				        <div class="item active">
-				        <img src="images/lock_bin2.png" alt="" class="img-responsive">
+				        <img src="images/lock_bin3.png" alt="" class="img-responsive">
 				           <div class="carousel-caption">
 				          
-							<h1> Open data et gouvernement, vers une transparence stratégiquement opaque?</h1>
-				      		<p>Projet étudiant de première année à Télécom ParisTech | ETIC 2016 - Groupe 6</p>
+							<!-- <h1> Les   données   ouvertes   et   les   administrations publiques  :  vers  une  transparence  stratégiquement opaque ?</h1>
+				      		<p>Projet étudiant de première année à Télécom ParisTech | ETIC 2016 - Groupe 6</p> -->
 				           </div>
 				        </div>
 				    </div>
 				</div>
+
 				<section class="bubles"> <!-- Debut boutons -->
 					<!-- <img src="./images/cityopen.png" class="img-responsive" alt="Responsive image"> -->
 					<ul class="ch-grid boutons">
@@ -138,7 +152,7 @@
 							<div class="ch-item">
 								<div class="ch-info">
 									<h3>Carte des acteurs</h3>
-									<p>Organisations actives sur l'open data<a href="#">En savoir plus ...</a></p>
+									<p>Organisations actives sur l'Open Data<a href="#">En savoir plus ...</a></p>
 								</div>
 								<div class="ch-thumb ch-img-2"></div>
 							</div>
@@ -161,9 +175,23 @@
 					</p>
 
 				</section>
-				
+			<!-- 	<script type="text/javascript">
+				// Notice how I declare an onclick event in the javascript code
+				document.getElementsByClassName( 'inner2' ).onclick = function( e ) {
+				    // First, get the clicked element
+				    // We have to add these lines because IE is bad.
+				    // If you don't work with legacy browsers, the following is enough:
+				    //     var target = e.target;
+				    var evt = e || window.event, target = evt.target || evt.srcElement;
+					var h = target.offsetHeight ;
+					var w = target.offsetWidth ;
+					target.style.height = h + 20;
+					target.style.width = w + 20;
+				}
+
+				</script> -->
 				<section id="timeline">
-					  <article>
+					  <article class="inner2">
 					    <div class="inner">
 					      <span class="date">
 					      	<span class="day">&nbsp</span>
