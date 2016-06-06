@@ -44,7 +44,7 @@
 				<div class="container-fluid">
 				 	<div class="navbar-header">
 				 	<!-- Bouton qui apparait au zoom -->
-				      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" >
 				       		<span class="sr-only">Toggle navigation</span>
 				        	<span class="icon-bar"></span>
 				        	<span class="icon-bar"></span>
@@ -57,45 +57,67 @@
 						<!-- BOUTONS - GAUCHE -->
 					  	<ul class="nav navbar-nav">
 					  		<!-- MAISON -->
-							<li>
-								<a href="index.html" class="hvr-bounce-to-top">
-									<span class="glyphicon glyphicon-home " aria-hidden="true" style="font-size: 36px;">
-									</span>
+							<li class="up-down">
+								<div class="slideBt default">
+									<span class="glyphicon glyphicon-home " aria-hidden="true" ></span>	 					
+								</div>
+								<a href="index.html" >
+									<div class="slideBt onhover"></br>Présentation</div>
 								</a>
+								
 							</li>
 							<!-- ARBRE -->
-							<li>
-								<a href="arbre_debats.html" class="hvr-bounce-to-top">
-									<span class="glyphicon glyphicon-tree-deciduous " aria-hidden="true" style="font-size: 36px;">
-									</span> 
+							<li class="up-down">
+								<div class="slideBt default">
+									<span class="glyphicon glyphicon-tree-deciduous " aria-hidden="true"></span> 
+								</div>
+								<a href="arbre_debats.html">
+									<div class="slideBt onhover">Arbre des</br>débats</div>
 								</a>
 							</li>	
 							<!-- ACTEURS -->
-							<li>
-								<a href="carte_acteurs.html" class="hvr-bounce-to-top">
-									<span class="glyphicon glyphicon-globe" aria-hidden="true" style="font-size: 36px;">
-									</span>
+							<li class="up-down">
+								<div class="slideBt default">
+									<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+								</div>
+								<a href="carte_acteurs.html" >
+									<div class="slideBt onhover">Carte des</br>acteurs</div>
 								</a>
 							</li>
 							<!-- FRISE -->
-							<li>
-								<a href="frise_chronologique.html" class="hvr-bounce-to-top">
-									<span class="glyphicon glyphicon-object-align-horizontal " aria-hidden="true" style="font-size: 36px;">
-									</span>
+							<li class="up-down">
+								<div class="slideBt default">
+									<span class="glyphicon glyphicon-object-align-horizontal " aria-hidden="true"></span>
+								</div>
+								<a href="frise_chronologique.html" >
+									<div class="slideBt onhover">Frise</br>chronologique</div>
+								</a>
+							</li>	
+							<!-- DEFINITIONS -->
+							<li class="up-down">
+								<div class="slideBt default">
+									<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+								</div>
+								<a href="definitions.html" >
+									<div class="slideBt onhover"></br>Définitions</div>
 								</a>
 							</li>		
 							<!-- EN SAVOIR PLUS -->
-							<li>
-								<a href="savoir_plus.html" class="hvr-bounce-to-top">
-									<span class="glyphicon glyphicon-plus" aria-hidden="true" style="font-size: 36px;">
-									</span>
+							<li class="up-down">
+								<div class="slideBt default">
+									<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+								</div>
+								<a href="savoir_plus.html">
+									<div class="slideBt onhover">En savoir</br>plus</div>
 								</a>
 							</li>	
 							<!-- A PROPOS -->
-							<li class="active">
-								<a href="a_propos.html" class="hvr-bounce-to-top">
-									<span class="glyphicon glyphicon-question-sign" aria-hidden="true" style="font-size: 36px;">
-									</span>
+							<li  class="active up-down">
+								<div class="slideBt default">
+									<span class="glyphicon glyphicon-question-sign" aria-hidden="true" ></span>
+								</div>
+								<a href="a_propos.html">
+									<div class="slideBt onhover"></br> A propos</div>
 								</a>
 							</li>	
 						</ul>	
@@ -134,39 +156,8 @@
 				</div>
 
 				</div>
-				<section class="bubles"> <!-- Debut boutons -->
-					<!-- <img src="./images/cityopen.png" class="img-responsive" alt="Responsive image"> -->
-					<ul class="ch-grid boutons">
-						<li>
-							<div class="ch-item">	
-								<div class="ch-info">
-									<h3>Arbre des débats</h3>
-									<p>Mapping de notre controverse <a href="#">En savoir plus ...</a></p>
-								</div>
-								<div class="ch-thumb ch-img-1"></div>
-							</div>
-						</li>
-						<li>
-							<div class="ch-item">
-								<div class="ch-info">
-									<h3>Carte des acteurs</h3>
-									<p>Organisations actives sur l'Open Data<a href="carte_acteurs.html">En savoir plus ...</a></p>
-								</div>
-								<div class="ch-thumb ch-img-2"></div>
-							</div>
-						</li>
-						<li>
-							<div class="ch-item">
-								<div class="ch-info">
-									<h3>Frise chronologie</h3>
-									<p>Dates marquantes dans l'Open Data<a href="frise_chronologique.html">En savoir plus ...</a></p>
-								</div>
-								<div class="ch-thumb ch-img-3"></div>
-							</div>
-						</li>
-					</ul>
-					<h1> &nbsp&nbsp À propos</h1>
-				</section><!-- Fin boutons -->
+				<h1> &nbsp&nbsp À propos</h1>
+
 				<section class="texte-ipsum">
 					<p>
 						Ce site web a vu le jour grâce à la collaboration de 7 étudiants dans le cadre du projet ETIC de Télécom ParisTech (Enjeux des Technologies de l’Information et de la Communication). «Son but est de former les futurs ingénieurs à l’analyse des relations entre science, technique et société, afin qu’ils puissent tenir une place responsable dans la démocratie technique contemporaine marquée par l’émergence du principe de précaution et par une participation toujours plus large des usagers et du grand public aux questions scientifiques et techniques.» (extrait du site ci-dessous)
@@ -202,7 +193,48 @@
 				</section>
 				
 			
-				
+				<section class="bubles"> <!-- Debut boutons -->
+					<!-- <img src="./images/cityopen.png" class="img-responsive" alt="Responsive image"> -->
+					<ul class="ch-grid boutons">
+						<li>
+							<div class="ch-item">	
+								<div class="ch-info">
+									<h3>Arbre des débats</h3>
+									<p>Mapping de notre controverse <a href="arbre_debats.html">En savoir plus ...</a></p>
+								</div>
+								<div class="ch-thumb ch-img-1"></div>
+							</div>
+						</li>
+						<li>
+							<div class="ch-item">
+								<div class="ch-info">
+									<h3>Carte des acteurs</h3>
+									<p>Organisations actives</br>sur l'Open Data<a href="carte_acteurs.html">En savoir plus ...</a></p>
+								</div>
+								<div class="ch-thumb ch-img-2"></div>
+							</div>
+						</li>
+						<li>
+							<div class="ch-item">
+								<div class="ch-info">
+									<h3>Frise chrono-</br>logique</h3>
+									<p>Dates marquantes dans l'Open Data<a href="frise_chronologique.html">En savoir plus ...</a></p>
+								</div>
+								<div class="ch-thumb ch-img-3"></div>
+							</div>
+						</li>
+						<li>
+							<div class="ch-item">
+								<div class="ch-info">
+									<h3></br>Définitions</h3>
+									<p>Mots clés de</br>l'Open Data<a href="definitions.html">En savoir plus ...</a></p>
+								</div>
+								<div class="ch-thumb ch-img-4"></div>
+							</div>
+						</li>
+					</ul>
+					
+				</section><!-- Fin boutons -->
 			</section> <!-- fin main-content -->
 			<footer class="footer">
 		      	<div class="container">
