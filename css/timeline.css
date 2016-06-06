@@ -249,21 +249,58 @@ section#timeline article:nth-child(12) div.inner h2:after {
 section#timeline article:nth-child(13) div.inner h2 {
   background: #e67e22;
 }
-section#timeline article:nth-child(14) div.inner h2:after {
+section#timeline article:nth-child(13) div.inner h2:after {
   background: #e67e22;
 }
 /*Cyan*/
-section#timeline article:nth-child(15) div.inner h2 {
+section#timeline article:nth-child(14) div.inner h2 {
   background: #1abc9c;
 }
-section#timeline article:nth-child(15) div.inner h2:after {
+section#timeline article:nth-child(14) div.inner h2:after {
   background: #1abc9c;
 }
 /*Violet*/
-section#timeline article:nth-child(16) div.inner h2 {
+section#timeline article:nth-child(15) div.inner h2 {
   background: #9b59b6;
 }
+section#timeline article:nth-child(15) div.inner h2:after {
+  background: #9b59b6;
+}
+
+
+/*Rouge*/
+section#timeline article:nth-child(16) div.inner h2 {
+  background: #e74c3c;
+}
 section#timeline article:nth-child(16) div.inner h2:after {
+  background: #e74c3c;
+}
+/*Vert*/
+section#timeline article:nth-child(17) div.inner h2 {
+  background: #2ecc71;
+}
+section#timeline article:nth-child(17) div.inner h2:after {
+  background: #2ecc71;
+}
+/*Orange*/
+section#timeline article:nth-child(18) div.inner h2 {
+  background: #e67e22;
+}
+section#timeline article:nth-child(18) div.inner h2:after {
+  background: #e67e22;
+}
+/*Cyan*/
+section#timeline article:nth-child(19) div.inner h2 {
+  background: #1abc9c;
+}
+section#timeline article:nth-child(19) div.inner h2:after {
+  background: #1abc9c;
+}
+/*Violet*/
+section#timeline article:nth-child(20) div.inner h2 {
+  background: #9b59b6;
+}
+section#timeline article:nth-child(20) div.inner h2:after {
   background: #9b59b6;
 }
 

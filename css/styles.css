@@ -22,23 +22,68 @@ html{
 	background-color:#1c3041;
 	margin-right:-5px;
 }
+
+.up-down {
+    overflow:hidden;
+    height:40px;
+    width:90px;
+}
+.slideBt {
+    width:90px;
+    height:40px;
+}
+.slideBt > span{
+	top:6px;
+}
+.up-down:hover .default {
+	height: 0;
+	color: #1c3041;
+}
+.default {
+	height: 40px:
+	padding: 0px 0px;
+	text-align: center;
+	color: #2FE6DE;
+	font-size: 24px;"
+	margin:auto;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.45s;
+
+}
+.onhover {
+	padding: 0px 0px;
+	margin: auto;
+    background-color:#1DB7CB;
+    color: #1c3041;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: center;
+    font-weight: bold;
+    bottom: 5px;
+
+}
+
 .navbar-default .navbar-nav > li > a {
  	font-size: 17px;
  	text-align: center;
-
+padding: 0px  0px;
 
   }
 
 .h1, h1{
-	font-size: 5rem;
+	font-size: 4.5rem;
 	color: #2FE6DE;
+}
+h3{
+	font-size: 3rem;
+	text-decoration: underline;
 }
 .navbar-right{
 	padding-right: 15px;
 }
 .main{
 	background-color:#1c3041;
-	margin-top: 70px;
+	margin-top: 40px;
 }
 
 .titre h1{
@@ -75,11 +120,14 @@ html{
 	/*Ombrage*/
 
 }
+.footer a {
+	color:#2FE6DE;;
+}
 .texte-ipsum{
 	/*background-color:#18F2B2; */
 	background-color:#e9e9e9;
 	text-align: justify;
-	font-size: 22px;
+	font-size: 1.7rem;
     text-justify: inter-word;
 	/*background-color:#88d498;*/
 	padding: 50px;
@@ -99,6 +147,7 @@ html{
 	background-color:#222930;
 }
 .navbar{
+	min-height: 20px;
 	margin-bottom: 0;
 	border-width: 0 0 0px;	
 	-moz-box-shadow:      0  20px 15px -15px #1F1F1F, 
@@ -159,3 +208,18 @@ background-color: transparent;
 	padding-bottom: 50px;
 	text-align: center;
 }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	margin-top: 2px;
+}
+.btn-default{
+	height: 30px;
+	padding-top: 5px;
+
+}
+.navbar-form .form-control{
+	height: 30px;
+
+
+}
+
+

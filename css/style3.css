@@ -59,8 +59,12 @@
 }
 
 .ch-img-3 { 
-	background-image: url(../images/openDataLock.jpg);
+	background-image: url(../images/frise.jpg);
 	z-index: 10;
+}
+.ch-img-4 { 
+	background-image: url(../images/Definitions.jpg);
+	z-index: 9;
 }
 
 .ch-info {
@@ -79,9 +83,9 @@
 	text-transform: uppercase;
 	position: relative;
 	letter-spacing: 2px;
-	font-size: 22px;
+	font-size: 19px;
 	margin: 0 60px;
-	padding: 22px 0 0 0;
+	padding: 18px 0 0 0;
 	height: 85px;
 	font-family: 'Open Sans', Arial, sans-serif;
 	text-shadow: 
@@ -91,18 +95,18 @@
 
 .ch-info p {
 	color: #fff;
-	padding: 10px 5px;
+	padding: 10px 0px;
 	font-style: italic;
 	margin: 0 30px;
-	font-size: 20px;
+	font-size: 15px;
 	border-top: 1px solid rgba(255,255,255,0.5);
 }
 
 .ch-info p a {
 	display: block;
 	color: #333;
-	width: 100px;
-	height: 100px;
+	width: 90px;
+	height: 90px;
 	background: rgba(255,255,255,0.3);
 	border-radius: 50%;
 	color: #fff;
