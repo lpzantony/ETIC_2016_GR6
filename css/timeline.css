@@ -41,7 +41,7 @@ section#timeline article div.inner {
 
   float: left;
   margin:0;
-  max-height : 120px;
+  max-height : 1000px;
   border-radius: 6px;
 
   -moz-box-shadow:      0  20px 15px -15px #1F1F1F, 
@@ -59,7 +59,7 @@ section#timeline article div.inner {
 section#timeline article div.inner:hover {
  
   width: 40%;
-  max-height : 200px;
+  max-height : 1000px;
 
   float: left;
   margin: 0 0 0 0;
